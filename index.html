@@ -13,22 +13,21 @@
       <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
           <ul class="nav nav-pills">
-            <li role="presentation" class="active"><a href="#">Home</a></li>
-            <li role="presentation"><a href="#">Portfolio</a></li>
-            <li role="presentation"><a href="#">Resume</a></li>
-            <li role="presentation"><a href="#"><img src="twitter.png" id="icon1"></a></li>
+            <li role="presentation" id="top_button"><a href="#background">Home</a></li>
+            <li role="presentation" id="middle_button"><a href=#middle>Portfolio</a></li>
+            <li role="presentation" id="bottom_button"><a href=#bottom>Resume</a></li>
+            <li role="presentation"><a href="https://twitter.com/EvanitoJ"><img src="twitter.png" id="icon1"></a></li>
             <li role="presentation"><a href="mailto:evan.j.sanderson@gmail.com"><img src="gmail.png" id="icon2"></a></li>
-            <li role="presentation"><a href="#"><img src="github.png" id="icon3"></a></li>
+            <li role="presentation"><a href="https://github.com/EvanSanderson"><img src="github.png" id="icon3"></a></li>
           </ul>
         </div>
       </nav>
       <div id ="header">
         <h1> Evan Sanderson </h1>
         <hr>
-        <h3> Do I contradict myself? Very well. I contradict myself. I am large. I contain multitudes. </h3>
+        <h3> Do I contradict myself? Very well. I contradict myself. I am large. I contain <span class="multitudes">multitudes</span>. </h3>
       </div>
     </div>
-  </hr>
 <div id="middle">
   <h1 class = "title"> Portfolio </h2>
     <div id = "project1">
@@ -43,13 +42,17 @@
 <hr>
 <div id="bottom">
   <h2 class = "title"> Resume </h2>
-  <h6 id ="clickbelow"> Click on my image below to view my resume. But please, try to avoid the eyes. That hurts! </h6>
-  <a href="#">"<img src="headshot.jpg" id="headshot"></a>
+  <div id = "bracket">
+  <h6> Click on my image below to view my resume. </h6>
+  <h6> But please, try to avoid the eyes.</h6>
+</div>
+  <a href="https://drive.google.com/file/d/0B91YvlfL6dQ7c1MxTHNJQW5MUlE/view?usp=sharing">"<img src="headshot.jpg" id="headshot"></a>
 </div>
 
 
 
-
+      <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+      <script src="index.js"></script>
   </body>
 </html>
