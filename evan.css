@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.navbar{
+  border:0;
+}
+
+@media (max-width: 767px) /* @grid-float-breakpoint -1 */ {
+.navbar-fixed-top {
+        position: relative;
+        top: auto;
+    }
+    .navbar-collapse {
+        max-height: none;
+    }
+    body {
+        margin: 0;
+    }
+}
+
+#icon1 {
+  width: 20px;
+  height: 20px;
+}
+
+#icon2 {
+  width: 20px;
+  height: 20px;
+}
+#icon3 {
+  width: 20px;
+  height: 20px;
+}
+
+
+#background {
+  width: 100vw;
+  height: 100vh;
+  display: block;
+  position: relative;
+}
+
+#background::after {
+  content: "";
+  background: url('background.jpg');
+  background-size: cover;
+  opacity: 0.7;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+#headshot {
+  background: url('headshot.jpg');
+  background-size: cover;
+  margin: 0 auto;
+  margin-top: 10em;
+  margin-left: 40%;
+  position: absolute;
+  width: 22em;
+  height: 17em;
+  border-radius: 50%;
+  border: solid 2px #52796F;
+}
+
+#clickbelow {
+  text-align: center;
+  font-size: 150%;
+}
+
+
+
+#header {
+  display: inline-block;
+  background-color: rgba(192, 192, 192, .8 );
+  margin: 0 auto;
+  margin-top: 20%;
+  margin-left: 10%;
+  padding: 10px 10px 10px 10px;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  border-radius: 5px;
+  z-index: 1
+
+}
+
+#header:hover {
+  background-color: #84A98C;
+}
+
+#middle {
+  background-color: #52796F;
+  width: 100vw;
+  height: 100vh;
+  color: white;
+}
+
+#project1 {
+  background-color: rgba(192, 192, 192, .8 );
+  margin: 0 auto;
+  margin-left: 40%;
+  padding: 10px 10px 10px 10px;
+  display: inline-block;
+  border-radius: 15px;
+  border-right: 10px solid #2F3E46;
+  border-left: 10px solid #2F3E46;
+
+}
+
+#project2 {
+  background-color: rgba(192, 192, 192, .8 );
+  margin: 0 auto;
+  margin-left: 20%;
+  margin-top: 15%;
+  padding: 10px 10px 10px 10px;
+  display: inline-block;
+  border-radius: 15px;
+  border-right: 10px solid #2F3E46;
+  border-left: 10px solid #2F3E46;
+
+}
+#bottom {
+  background-color: #354F52;
+  width: 100vw;
+  height: 100vh;
+  color: white;
+  display: relative;
+}
+
+.title {
+  padding: 1em 1em;
+}
+
+.nav {
+  background-color: rgba(192, 192, 192, .8 );
+  background-size: cover;
+}
+
+.nav:hover {
+  background-color: #84A98C;
+}
