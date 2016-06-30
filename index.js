@@ -2,18 +2,18 @@
 
 $("#middle_button").click(function() {
     $('html,body').animate({
-        scrollTop: $("#middle").offset().top},
+        scrollTop: $("#middle").offset().top - 50},
         'slow');
 });
 
 $("#bottom_button").click(function() {
     $('html,body').animate({
-        scrollTop: $("#bottom").offset().top},
+        scrollTop: $("#bottom").offset().top - 50},
         'slow');
 });
 
 $("#top_button").click(function() {
     $('html,body').animate({
-        scrollTop: $("#background").offset().top},
+        scrollTop: $("#background").offset().top - 50},
         'slow');
 });
