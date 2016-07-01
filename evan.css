@@ -31,6 +31,8 @@ a {
     }
 }
 
+/* These icons refers to the Twitter, Github, and Gmail icons*/
+
 #icon1 {
   width: 20px;
   height: 20px;
@@ -45,6 +47,7 @@ a {
   height: 20px;
 }
 
+/*The following two backgrounds refer to a background image and an opaque div placed atop it*/
 
 #background {
   width: 100vw;
@@ -149,6 +152,7 @@ footer {
 
 }
 
+/* Bracket refers to the text pointing users to the headshot-resume link*/
 #bracket {
   background-color: rgba(192, 192, 192, .8 );
   margin-left: 6em;
@@ -167,7 +171,6 @@ footer {
   color: white;
   margin-top: 0px;
   padding-top: 0px;
-  display: relative;
 }
 
 h6 {
@@ -176,6 +179,8 @@ h6 {
   padding: 10px;
 
 }
+
+/* Title refers to the Resume and Portfolio headings*/
 .title {
   padding: 1em 1em;
   margin-top: 0px;
