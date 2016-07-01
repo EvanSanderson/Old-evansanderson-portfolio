@@ -173,6 +173,10 @@ footer {
   padding-top: 0px;
 }
 
+#aboutMe {
+  display: inline-block;
+  background-color: rgba(192, 192, 192, .8 );
+}
 h6 {
   margin-bottom: 0px;
   margin-top: 0px;
