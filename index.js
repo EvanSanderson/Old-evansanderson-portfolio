@@ -1,4 +1,5 @@
-
+ // ND: Nice job here! Code looks good. Doesn't look like you actually need to use
+ // html as a selector though. Works just fine without
 // each of these Jquery click functions animates the transition to the corresponding div
 $("document").ready(function() {
 

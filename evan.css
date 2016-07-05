@@ -18,6 +18,7 @@ a {
   padding-bottom: 0px;
 }
 
+/*ND: Good start here making the site responsive!*/
 @media (max-width: 767px) /* @grid-float-breakpoint -1 */ {
 .navbar-fixed-top {
         position: relative;
@@ -32,7 +33,7 @@ a {
 }
 
 /* These icons refers to the Twitter, Github, and Gmail icons*/
-
+/*ND: You should name them so you know what it is more easily. ex: #twitterIcon*/
 #icon1 {
   width: 20px;
   height: 20px;
