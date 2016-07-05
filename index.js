@@ -1,5 +1,11 @@
 
 // each of these Jquery click functions animates the transition to the corresponding div
+$("document").ready(function() {
+
+$("#aboutMeClick").click(function() {
+  $("#aboutMe").css("visibility", "visible");
+});
+
 $("#middle_button").click(function() {
     $('html,body').animate({
         scrollTop: $("#middle").offset().top - 50},
@@ -16,4 +22,7 @@ $("#top_button").click(function() {
     $('html,body').animate({
         scrollTop: $("#background").offset().top - 50},
         'slow');
+});
+
+
 });
