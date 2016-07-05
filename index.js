@@ -3,7 +3,8 @@
 $("document").ready(function() {
 
 $("#aboutMeClick").click(function() {
-  $("#aboutMe").css("visibility", "visible");
+    $("#aboutMe").css("visibility", "visible");
+
 });
 
 $("#middle_button").click(function() {
