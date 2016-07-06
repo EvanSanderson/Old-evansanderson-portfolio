@@ -2,10 +2,13 @@
 // each of these Jquery click functions animates the transition to the corresponding div
 $("document").ready(function() {
 
-$("#aboutMeClick").click(function() {
-    $("#aboutMe").css("visibility", "visible");
+  var btn = $("#aboutMeClick");
+  var div = $(".aboutMe");
+  btn.on("click", function(){
+    console.log("button working");
+    div.toggleClass("slide-left");
 
-});
+  })
 
 $("#middle_button").click(function() {
     $('html,body').animate({

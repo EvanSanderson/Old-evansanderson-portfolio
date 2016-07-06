@@ -185,16 +185,21 @@ footer {
   font-weight: bold;
 }
 
-#aboutMe {
-  display: inline-block;
+.aboutMe {
   background-color: rgba(192, 192, 192, .6 );
-  margin: 0 auto;
-  margin-left: 20%;
-  margin-top: 2%;
-  width: 40%;
-  visibility: hidden;
   border-radius: 15px;
   padding: 10px;
+  display: inline-block;
+  width: 40%;
+  transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+-moz-transform: translateX(-100%);
+-o-transform: translateX(-100%);
+transition: all .2s ease;
+}
+
+.slide-left {
+  transform: translateX(0);
 }
 
 h6 {
@@ -219,6 +224,6 @@ h6 {
   background-color: #84A98C;
 }
 
-#aboutMeClick:hover {
+/*#aboutMeClick:hover {
   background-color: #84A98C;
-}
+}*/
