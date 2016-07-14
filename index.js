@@ -38,5 +38,18 @@ $("#top_button").click(function(e) {
         'slow');
 });
 
+var modal = $("#myModal");
+var click = $("#shakespeareGame");
+var span = $(".close")[0];
+
+click.on("click", function() {
+  modal.css("display", "block");
+})
+
+$(".close").on("click", function() {
+  modal.css("display", "none");
+})
+
+
 
 });
