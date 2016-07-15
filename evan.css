@@ -90,6 +90,12 @@ margin: 15% auto;
 margin-top: 0;
 }
 
+@media (max-width: 600px) {
+  #headshot {
+    margin: 15% auto;
+  }
+}
+
 .clickbelow {
   text-align: center;
   font-size: 150%;
