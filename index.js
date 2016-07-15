@@ -14,6 +14,7 @@ $("document").ready(function() {
   var codingBackground = $(".codingBackground");
   btn2.on("click",function(){
     console.log("button working");
+    codingBackground.css("display", "inline-block");
     codingBackground.toggleClass("slide-right");
   })
 
@@ -39,10 +40,10 @@ $("#top_button").click(function(e) {
 });
 
 var modal = $("#myModal");
-var click = $("#shakespeareGame");
+var shakespeare = $("#shakespeareGame");
 var span = $(".close")[0];
 
-click.on("click", function() {
+shakespeare.on("click", function() {
   modal.css("display", "block");
 })
 

@@ -24,48 +24,84 @@
       </div>
     </nav>
     <!-- Header section on the landing section -->
+    <div class="container-fluid">
+      <div class="row">
     <div id ="header">
       <h1> <span class= "multitudes"> Evan Sanderson </span> </h1>
       <hr>
       <h3> Do I contradict myself? Very well. I contradict myself. I am large. I contain <span class="multitudes">multitudes</span>. </h3>
     </div>
   </div>
+</div>
+</div>
   <!-- The middle section of the site that contains the portfolio pieces-->
   <div id="middle">
-    <h1 class = "title">| Portfolio |</h1>
+    <div class ="container-fluid">
+      <div class ="row">
+    <h1 class = "title"> Portfolio </h1>
+  </div>
+  <!-- start of one column -->
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3">
     <div id="project1">
     <h3> You cullion! You fustilarion! You rampallion! </h3>
-    <p> Click below to learn more about this Shakespearean insult game. </p>
+    <p> | a shakesperean-insult trivia game |</p>
       <div id ="shakespeareGame" class = "project">
       </div>
     </div>
     <div id="myModal" class="modal">
         <div class="modal-content">
+          <p> This game, built with JQuery and Vanilla JS, challenges players to answer a series of increasingly difficult questions. Features include point-scaling, a timer that eliminates wrong options, a floating lego-Shakespeare, and cake!</p><span class="clickbelow"><p>Click below to play.</p></span>
+          <a href="https://evansanderson.github.io/Trivia_Game/"><img src = "shakespearegame.png" alt="shakespearegame" class="snapshot"></a>
           <span class="close">x</span>
-          <p> This game, built with JQuery and Vanilla JS, challenges players to answer a series of increasingly difficult questions. Features include point-scaling, a timer that eliminates wrong options, a floating lego-Shakespeare, and cake!</p>
       </div>
+    </div>
+  </div>
+      <!-- <div class="col-md-2">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, cum expedita quae quas dolor magni vitae porro? Aliquid repellat veritatis animi dolore in, nemo ea, omnis qui, similique itaque ab!</p>
+        <p>Libero possimus dolorem inventore aliquam magni asperiores, veritatis recusandae quae omnis, ex provident iste nihil a reiciendis commodi eius porro ratione. Sapiente soluta nobis, dolorum voluptates, delectus magnam. Dolorum, numquam?</p>
+      </div>
+      <div class="col-md-2">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, cum expedita quae quas dolor magni vitae porro? Aliquid repellat veritatis animi dolore in, nemo ea, omnis qui, similique itaque ab!</p>
+        <p>Libero possimus dolorem inventore aliquam magni asperiores, veritatis recusandae quae omnis, ex provident iste nihil a reiciendis commodi eius porro ratione. Sapiente soluta nobis, dolorum voluptates, delectus magnam. Dolorum, numquam?</p>
+      </div> -->
+</div>
     </div>
     </div>
     <!-- The bottom part of the page that contains the resume and about me -->
     <div id="bottom">
-      <h2 class = "title">| About |</h2>
-      <!-- <div id = "bracket">
-        <h6> Click on my image to view my resume. </h6>
-        <h6> But please, try to avoid the eyes.</h6>
-      </div> -->
-      <button id = "aboutMeClick">
-        Backstory
-      </button>
-      <button id = "codingClick">
-        Programming Skills
-      </button>
-      <a href="https://drive.google.com/file/d/0B91YvlfL6dQ7c1MxTHNJQW5MUlE/view?usp=sharing">"<img src="headshot.jpg" alt="evans headshot" id="headshot"></a>
-      <div class = "aboutMe">
-      <p> I'm a web developer/actor/playwright/arts-manager/game designer with an interest in veterans advocacy, some inherited knowledge of veterinary practice, and an undimmed childlike curiousity and joy. I also like run-on sentences.</p>
-      </div>
-      <div class = "codingBackground">
-      <p> HTML, CSS, Bootstrap, JavaScript, jQuery, Ruby on Rails, Active Record, PostgreSQL, SQL, AJAX, APIs, JSON, RESTful routes, MEAN Stack (MongoDB, ExpressJS, AngularJS, Node.js), Bash Shell Scripting, Git, GitHub, and Heroku. <p>
+  <div class="container-fluid">
+      <h2 class = "title">About </h2>
+
+      <div class="row">
+        <div class = "col-md-3 col-md-offset-1" id="aboutMe">
+          <p> I'm a web developer/actor/playwright/arts-manager/game designer with an interest in veterans advocacy, some inherited knowledge of veterinary practice, and an undimmed childlike curiousity and joy. I also like run-on sentences.</p>
+        </div>
+
+        <div class="col-md-4">
+          <a href="https://drive.google.com/file/d/0B91YvlfL6dQ7c1MxTHNJQW5MUlE/view?usp=sharing">"<img src="headshot.jpg" alt="evans headshot" id="headshot"></a>
+        </div>
+
+      <div class = "col-md-3" id="codingBackground">
+        <p> HTML, CSS, Bootstrap, JavaScript, jQuery, Ruby on Rails, Active Record, PostgreSQL, SQL, AJAX, APIs, JSON, RESTful routes, MEAN Stack (MongoDB, ExpressJS, AngularJS, Node.js), Bash Shell Scripting, Git, GitHub, and Heroku. <p>
+        </div>
+
     </div>
+          <!-- <div class="row">
+            <div class="column-md-4" id = "aboutMeClick">
+              Backstory
+            </div>
+            <div class="column-md-4" id = "codingClick">
+              Programming Skills
+            </div>
+          </div> -->
+
+
+        </div>
+      </div>
+
+  <!-- </div>
+</div> -->
     <footer>
       <p> Thanks for visiting | Please feel free to contact me using the links above </p>
     </footer>

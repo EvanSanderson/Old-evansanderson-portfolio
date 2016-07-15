@@ -13,6 +13,7 @@ a {
   margin-left: 0px;
 }
 
+
 .container-fluid {
   padding-left: 0px;
   padding-bottom: 0px;
@@ -29,6 +30,13 @@ a {
     body {
         margin: 0;
     }
+
+.navbar .navbar-nav {
+      display: inline-block;
+      float: none;
+      vertical-align: top;
+    }
+
 
 .project {
   max-width: 10%;
@@ -55,8 +63,8 @@ a {
 /*The following two backgrounds refer to a background image and an opaque div placed atop it*/
 
 #background {
-  width: 100vw;
-  height: 100vh;
+  /*width: 100vw;
+  height: 100vh;*/
   display: block;
   position: relative;
 }
@@ -75,15 +83,11 @@ a {
 }
 
 #headshot {
-  background: url('headshot.jpg');
-  background-size: contain;
-  max-width: 30%;
-  max-height: 40%;
-  display: inline-block;
-  margin-top: -10%;
-  margin-left: 40%;
-  border-radius: 50%;
-  border: solid 2px #52796F;
+width: 60%;
+border-radius: 10px;
+display: block;
+margin: 15% auto;
+margin-top: 0;
 }
 
 .clickbelow {
@@ -94,11 +98,9 @@ a {
 
 
 #header {
-  display: inline-block;
+  display: block;
   background-color: rgba(192, 192, 192, .8 );
-  margin: 0 auto;
-  margin-top: 20%;
-  margin-left: 10%;
+  margin: 20% auto;
   padding: 10px 10px 10px 10px;
   text-align: center;
   font-family: 'Quicksand', sans-serif;
@@ -117,101 +119,43 @@ a {
 
 #middle {
   background-color: #52796F;
-  max-width: 100vw;
-  max-height: 100vh;
   color: white;
   padding-top: 0px;
   margin-top: 0px;
 }
 
-.project {
-  background-color: rgba(192, 192, 192, .8 );
-  margin: 2em 2em;
-  max-width: 45%;
-  display: inline-block;
-  padding: 10px 10px 10px 10px;
-  border-radius: 15px;
-  border-right: 10px solid #2F3E46;
-  border-left: 10px solid #2F3E46;
 
+#project1 {
+  margin: 15% auto;
+  margin-top: 0;
+  text-align: center;
 }
 
-
-
-/* Bracket refers to the text pointing users to the headshot-resume link*/
-/*#bracket {
-  background-color: rgba(192, 192, 192, .8 );
-  margin-left: 6em;
-  max-width: 20em;
-  padding: 10px 10px 10px 10px;
-  display: inline-block;
-  border-radius: 15px;
-  border-right: 10px solid #2F3E46;
-  border-left: 10px solid #2F3E46;
-}*/
 
 #bottom {
   background-color: #354F52;
-  max-width: 100vw;
-  max-height: 100vh;
   color: white;
   margin-top: 0px;
   padding-top: 0px;
 }
 
-#aboutMeClick {
+#aboutMeClick, #codingClick {
+  /*display: inline-block;*/
   background-color: rgba(192, 192, 192, .8 );
-  margin-left: 5em;
-  max-width: 15em;
   padding: 10px 10px 10px 10px;
-  display: block;
   border-radius: 15px;
   border-right: 10px solid #2F3E46;
   border-left: 10px solid #2F3E46;
   font-weight: bold;
 }
 
-#codingClick {
-  background-color: rgba(192, 192, 192, .8 );
-  margin-left: 5em;
-  margin-top: 2em;
-  max-width: 15em;
-  padding: 10px 10px 10px 10px;
-  display: block;
-  border-radius: 15px;
-  border-right: 10px solid #2F3E46;
-  border-left: 10px solid #2F3E46;
-  font-weight: bold;
-}
 
-.aboutMe {
-  background-color: rgba(192, 192, 192, .6 );
-  border-radius: 15px;
-  padding: 10px;
-  display: inline-block;
-  margin-top: 2em;
-  margin-bottom: 2em;
-  max-width: 35%;
-  transform: translateX(-100%);
-  -webkit-transform: translateX(-100%);
-  -moz-transform: translateX(-100%);
-  -o-transform: translateX(-100%);
-  transition: all .2s ease;
-}
-
-.codingBackground {
-    max-width: 35%;
-    display: inline-block;
-    margin-top: -15em;
-    margin-bottom: 2em;
+#codingBackground, #aboutMe {
     background-color: rgba(192, 192, 192, .6 );
     border-radius: 15px;
     padding: 10px;
-    transform: translateX(200%);
-    -webkit-transform: translateX(200%);
-    -moz-transform: translateX(200%);
-    -o-transform: translateX(200%);
-    transition: all .2s ease;
+    margin-left: 20px;
+    margin-right: 20px;
 
 }
 
@@ -268,14 +212,11 @@ h6 {
   background-size: cover;
   width: 20em;
   height: 8em;
+  display: block;
+  margin: 0 auto;
+  border-radius: 12px;
 }
 
-#project1{
-  display: inline-block;;
-  margin: 0 auto;
-  margin-left: 4em;
-  text-align: center;
-}
 
 .modal {
     display: none; /* Hidden by default */
@@ -292,19 +233,24 @@ h6 {
 
 /* Modal Content/Box */
 .modal-content {
-    background-color: #fefefe;
-    margin: 15% auto; /* 15% from the top and centered */
+    background-color: rgba(192, 192, 192);
+    margin: 15% auto;
     padding: 20px;
     border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen size */
+    width: 80%;
+}
+
+.modal-content p {
+  color: black;
 }
 
 /* The Close Button */
 .close {
-    color: #aaa;
-    float: right;
+    color: red;
+    /*float: right;*/
     font-size: 28px;
     font-weight: bold;
+    margin-top: -20%;
 }
 
 .close:hover,
@@ -312,4 +258,17 @@ h6 {
     color: black;
     text-decoration: none;
     cursor: pointer;
+}
+
+.snapshot {
+  height: 30%;
+  width: 30%;
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto;
+}
+
+.clickbelow {
+  font-weight: bold;
+  text-align: center;
 }
