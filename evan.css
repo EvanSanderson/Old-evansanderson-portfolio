@@ -5,6 +5,7 @@
 a {
   color: #354F52;
 }
+
 .nav{
   height: 51px;
   padding-left: 0px;
@@ -12,7 +13,6 @@ a {
   width: 100vw;
   margin-left: 0px;
 }
-
 
 .container-fluid {
   padding-left: 0px;
@@ -45,17 +45,7 @@ a {
 }
 
 /* These icons refers to the Twitter, Github, and Gmail icons*/
-
-#icon1 {
-  width: 20px;
-  height: 20px;
-}
-
-#icon2 {
-  width: 20px;
-  height: 20px;
-}
-#icon3 {
+.icon {
   width: 20px;
   height: 20px;
 }
@@ -145,24 +135,20 @@ margin-top: 0;
   padding-top: 0px;
 }
 
-#aboutMeClick, #codingClick {
-  /*display: inline-block;*/
-  background-color: rgba(192, 192, 192, .8 );
-  padding: 10px 10px 10px 10px;
-  border-radius: 15px;
-  border-right: 10px solid #2F3E46;
-  border-left: 10px solid #2F3E46;
-  font-weight: bold;
-}
 
-
-#codingBackground, #aboutMe {
-    background-color: rgba(192, 192, 192, .6 );
+.aboutMe {
+    background-color: rgba(192, 192, 192, 0.3);
     border-radius: 15px;
     padding: 10px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
 
+}
+
+#codingBackground {
+  margin-top: 2em;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 footer {
@@ -173,14 +159,6 @@ footer {
   /*bottom: 0;*/
   /*display: inline-block;*/
   text-align: center;
-}
-
-.slide-left {
-  transform: translateX(20%);
-}
-
-.slide-right {
-  transform: translateX(50%);
 }
 
 h6 {
@@ -197,7 +175,7 @@ h6 {
 }
 
 .nav {
-  background-color: rgba(192, 192, 192, .6);
+  background-color: rgb(192, 192, 192);
   background-size: cover;
 }
 
@@ -205,13 +183,7 @@ h6 {
   background-color: #84A98C;
 }
 
-#aboutMeClick:hover {
-  background-color: #84A98C;
-}
 
-#codingClick:hover {
-  background-color: #84A98C;
-}
 
 #shakespeareGame {
   background: url("shakespearegame.png");
@@ -277,4 +249,11 @@ h6 {
 .clickbelow {
   font-weight: bold;
   text-align: center;
+}
+
+#headshotContainer {
+  background-color: rgba(192, 192, 192, .3 );
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 1em;
 }

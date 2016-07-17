@@ -11,7 +11,7 @@
 </head>
 <body>
   <div id="background">
-    <nav class="navbar navbar-default navbar-fixed-top">
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
       <div class="container-fluid">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
             <span class="icon-bar"></span>
@@ -26,9 +26,10 @@
           <li role="presentation" id="top_button"><a href="#background">Home</a></li>
           <li role="presentation" id="middle_button"><a href=#middle>Portfolio</a></li>
           <li role="presentation" id="bottom_button"><a href=#bottom>About</a></li>
-          <li role="presentation"><a href="https://twitter.com/EvanitoJ"><img src="twitter.png" alt="twitter logo" id="icon1"></a></li>
-          <li role="presentation"><a href="mailto:evan.j.sanderson@gmail.com"><img src="gmail.png" alt="gmail logo" id="icon2"></a></li>
-          <li role="presentation"><a href="https://github.com/EvanSanderson"><img src="github.png" alt="github logo" id="icon3"></a></li>
+          <li role="presentation"><a href="https://twitter.com/EvanitoJ"><img src="twitter.png" alt="twitter logo" class="icon"></a></li>
+          <li role="presentation"><a href="mailto:evan.j.sanderson@gmail.com"><img src="gmail.png" alt="gmail logo" class="icon"></a></li>
+          <li role="presentation"><a href="https://github.com/EvanSanderson"><img src="github.png" alt="github logo" class="icon"></a></li>
+          <li role="presentation"><a href="https://www.linkedin.com/in/evanjaysanderson"><img src="linkedin.png" alt="linkedin" class="icon"></a></li>
         </ul>
       </div>
       </div>
@@ -84,17 +85,18 @@
       <h2 class = "title">About </h2>
 
       <div class="row">
-        <div class = "col-md-3 col-md-offset-1" id="aboutMe">
-          <p> I'm a web developer/actor/playwright/arts-manager/game designer with an interest in veterans advocacy, some inherited knowledge of veterinary practice, and an undimmed childlike curiousity and joy. I also like run-on sentences.</p>
-        </div>
-
-        <div class="col-md-4">
+        <div class="col-md-6 col-md-offset-1" id="headshotContainer">
+          <p style="text-align: center"> Click on my picture to view my full resume. <br> But please, avoid the eyes. </p>
           <a href="https://drive.google.com/file/d/0B91YvlfL6dQ7c1MxTHNJQW5MUlE/view?usp=sharing">"<img src="headshot.jpg" alt="evans headshot" id="headshot"></a>
         </div>
-
-      <div class = "col-md-3" id="codingBackground">
-        <p> HTML, CSS, Bootstrap, JavaScript, jQuery, Ruby on Rails, Active Record, PostgreSQL, SQL, AJAX, APIs, JSON, RESTful routes, MEAN Stack (MongoDB, ExpressJS, AngularJS, Node.js), Bash Shell Scripting, Git, GitHub, and Heroku. <p>
+        <div class = "col-md-4 aboutMe">
+          <p> I'm a web developer/actor/playwright/arts-manager/game designer with an interest in veterans advocacy, some inherited knowledge of veterinary practice, and an enormous capacity for childlike curiousity. I also like run-on sentences. </p> <p>The quote featured at the top of my page is from Walt Whitman. It's stuck with me throughout my life as a reminder that the hodepodge of elements that make up my skills and personality aren't a weakness but a strength to be treasured.</p> <p>To read the rest of the poem, check out <a href="http://www.poetryfoundation.org/poems-and-poets/poems/detail/45477">Song of Myself</a></p>
         </div>
+          <div class="row">
+            <div class="col-md-4 aboutMe" id="codingBackground">
+              <p> I have experience building multiple applications utilizing: HTML, CSS, Bootstrap, JavaScript, jQuery, Ruby on Rails, Active Record, PostgreSQL, SQL, AJAX, APIs, JSON, RESTful routes, MEAN Stack (MongoDB, ExpressJS, AngularJS, Node.js), Bash Shell Scripting, Git, GitHub, and Heroku. <p>
+            </div>
+          </div>
 
     </div>
           <!-- <div class="row">
