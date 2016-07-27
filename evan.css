@@ -19,30 +19,6 @@ a {
   padding-bottom: 0px;
 }
 
-@media (max-width: 30%) /* @grid-float-breakpoint -1 */ {
-.navbar-fixed-top {
-        position: relative;
-        top: auto;
-    }
-    .navbar-collapse {
-        max-height: none;
-    }
-    body {
-        margin: 0;
-    }
-
-.navbar .navbar-nav {
-      display: inline-block;
-      float: none;
-      vertical-align: top;
-    }
-
-
-.project {
-  max-width: 10%;
-  display: block;
-}
-}
 
 /* These icons refers to the Twitter, Github, and Gmail icons*/
 .icon {
@@ -180,7 +156,6 @@ h6 {
 
 .nav {
   background-color: rgb(192, 192, 192);
-  background-size: cover;
 }
 
 .nav:hover {
@@ -273,9 +248,7 @@ h3 {
 
 #progbar {
   margin-top: 3em;
-  background-color: rgba(192, 192, 192, .3 );
   padding: 10px;
-  border-radius: 10px;
   margin-right: 10px;
   margin-left:20px;
 }
