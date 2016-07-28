@@ -51,6 +51,8 @@ $(".close").on("click", function() {
   modal.css("display", "none");
 })
 
-
+$("#personalBackground").on("click", function() {
+  $(this).html("<p>I'm a web developer/actor/playwright/arts-manager/game designer with an interest in veterans advocacy, some inherited knowledge of veterinary practice, and an enormous capacity for childlike curiousity. I also like run-on sentences. </p> <p>The quote featured at the top of my page is from Walt Whitman. It's stuck with me throughout my life as a reminder that the hodepodge of elements that make up my skills and personality aren't a weakness but a strength to be treasured.</p> <p><a href='http://www.poetryfoundation.org/poems-and-poets/poems/detail/45477' style='color: white'> Walt Whitman's Song of Myself</a></p>");
+});
 
 });

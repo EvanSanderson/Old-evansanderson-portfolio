@@ -252,6 +252,10 @@ border-radius: 18px;
   margin-bottom: 1em;
 }
 
+#headshot:hover {
+  width: 55%;
+}
+
 h3 {
   margin-top: 0;
 }
