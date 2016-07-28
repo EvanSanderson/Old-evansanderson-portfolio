@@ -6,12 +6,25 @@ a {
   color: #354F52;
 }
 
-.nav{
-  height: 51px;
-  padding-left: 0px;
-  margin-bottom: 0px;
-  width: 100vw;
-  margin-left: 0px;
+.navbar-default {
+  background: rgba(192, 192, 192, 0.7 );
+
+}
+
+
+.navbar-default .navbar-nav>li>a {
+  color: #2F3E46;
+  font-weight: bold;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+  background: rgba(82,121,111, 0.6);
+}
+
+.navbar-default .navbar-brand {
+  color: #2F3E46;
+  font-weight: bold;
+  padding: 1em;
 }
 
 .container-fluid {
@@ -154,13 +167,10 @@ h6 {
   margin-top: 0px;
 }
 
-.nav {
-  background-color: rgb(192, 192, 192);
+.nav .navbar-nav {
+  background-color: rgba(192, 192, 192, 0.8);
 }
 
-.nav:hover {
-  background-color: #84A98C;
-}
 
 
 
