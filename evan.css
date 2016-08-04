@@ -253,7 +253,7 @@ border-radius: 18px;
 }
 
 #headshot:hover {
-  width: 55%;
+  width: 58%;
 }
 
 h3 {
@@ -265,4 +265,25 @@ h3 {
   padding: 10px;
   margin-right: 10px;
   margin-left:20px;
+}
+
+.description {
+  font-size: 2.5em;
+  text-align: center;
+  padding: 10px;
+}
+
+.descriptionSub {
+  font-size: 1em;
+  text-align: center;
+  padding: 10px;
+}
+
+.linkedIn:hover {
+  background-color: rgba(192, 192, 192, .3 );
+  border-radius: 10px;
+}
+
+.javascript {
+  width: 10%;
 }
