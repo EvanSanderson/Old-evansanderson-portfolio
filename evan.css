@@ -139,7 +139,7 @@ margin-top: 0;
 }
 
 
-#project1 {
+.project {
   background-color: rgba(192, 192, 192, .3 );
   margin: 15% auto;
   margin-top: 0;
@@ -221,6 +221,23 @@ h6 {
     transform: scale(1);
 }
 
+#topDeck {
+  background: url("topDeck.png");
+  background-size: cover;
+  width: 20em;
+  height: 8em;
+  display: block;
+  margin: 0 auto;
+  border-radius: 14px;
+  -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);
+}
 
 .modal {
     display: none; /* Hidden by default */
@@ -277,6 +294,19 @@ h6 {
     transform: scale(1.5);
 }
 
+#topDeck:hover{
+  box-shadow: 0px 0px 50px #000000;
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.5);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.5);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.5);
+    transition: all 200ms ease-in;
+    transform: scale(1.5);
+}
+
 .snapshot {
   height: 30%;
   width: 30%;
@@ -301,25 +331,19 @@ h6 {
   box-shadow: 0px 0px 50px #000000;
     z-index: 2;
     -webkit-transition: all 200ms ease-in;
-    -webkit-transform: scale(1.5);
+    -webkit-transform: scale(1.2);
     -ms-transition: all 200ms ease-in;
-    -ms-transform: scale(1.5);
+    -ms-transform: scale(1.2);
     -moz-transition: all 200ms ease-in;
-    -moz-transform: scale(1.5);
+    -moz-transform: scale(1.2);
     transition: all 200ms ease-in;
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
 
 h3 {
   margin-top: 0;
 }
 
-#progbar {
-  margin-top: 3em;
-  padding: 10px;
-  margin-right: 10px;
-  margin-left:20px;
-}
 
 .description {
   font-size: 1.5em;
@@ -358,11 +382,11 @@ h3 {
   box-shadow: 0px 0px 50px #000000;
     z-index: 2;
     -webkit-transition: all 200ms ease-in;
-    -webkit-transform: scale(1.5);
+    -webkit-transform: scale(1..25);
     -ms-transition: all 200ms ease-in;
-    -ms-transform: scale(1.5);
+    -ms-transform: scale(1.25);
     -moz-transition: all 200ms ease-in;
-    -moz-transform: scale(1.5);
+    -moz-transform: scale(1.25);
     transition: all 200ms ease-in;
-    transform: scale(1.5);
+    transform: scale(1.25);
 }

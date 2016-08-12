@@ -51,5 +51,17 @@ $(".close").on("click", function() {
   modal.css("display", "none");
 })
 
+var modal2 = $("#myModal2");
+var topDeck = $("#topDeck");
+var span = $(".close")[0];
+
+topDeck.on("click", function() {
+  modal2.css("display", "block");
+})
+
+$(".close").on("click", function() {
+  modal2.css("display", "none");
+})
+
 
 });
