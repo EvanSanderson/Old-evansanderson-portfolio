@@ -346,17 +346,18 @@ h3 {
 
 
 .description {
-  font-size: 1.5em;
-  text-align: center;
+  font-size: 2em;
+  padding: 10px;
+  margin-top: 10%;
+}
+
+.descripSub {
   padding: 10px;
 }
 
-.descriptionSub {
-  font-size: 1em;
-  text-align: center;
-  padding: 10px;
+.linkedIn {
+  margin-top: 10%;
 }
-
 .linkedIn:hover {
   background-color: rgba(192, 192, 192, .3 );
   border-radius: 10px;
@@ -389,4 +390,12 @@ h3 {
     -moz-transform: scale(1.25);
     transition: all 200ms ease-in;
     transform: scale(1.25);
+}
+
+.logo {
+  width: 100%;
+}
+
+.programmingSkills {
+  text-align: center;
 }
