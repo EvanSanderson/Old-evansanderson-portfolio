@@ -201,7 +201,7 @@ h6 {
 }
 
 
-
+/*Portfolio modals*/
 
 #shakespeareGame {
   background: url("shakespearegame.png");
@@ -223,6 +223,24 @@ h6 {
 
 #topDeck {
   background: url("topDeck.png");
+  background-size: cover;
+  width: 20em;
+  height: 8em;
+  display: block;
+  margin: 0 auto;
+  border-radius: 14px;
+  -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);
+}
+
+#epic {
+  background: url("Epic.png");
   background-size: cover;
   width: 20em;
   height: 8em;
@@ -295,6 +313,19 @@ h6 {
 }
 
 #topDeck:hover{
+  box-shadow: 0px 0px 50px #000000;
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.5);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.5);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.5);
+    transition: all 200ms ease-in;
+    transform: scale(1.5);
+}
+
+#epic:hover{
   box-shadow: 0px 0px 50px #000000;
     z-index: 2;
     -webkit-transition: all 200ms ease-in;

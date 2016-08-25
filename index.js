@@ -63,5 +63,15 @@ $(".close").on("click", function() {
   modal2.css("display", "none");
 })
 
+var modal3 = $("#myModal3");
+var epic = $("#epic");
+
+epic.on("click", function() {
+  modal3.css("display", "block")
+})
+
+$(".close").on("click", function() {
+  modal3.css("display", "none")
+})
 
 });
