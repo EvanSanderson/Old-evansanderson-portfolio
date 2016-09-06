@@ -48,7 +48,7 @@ a {
 
 .background::after {
   content: "";
-  background: url('background.jpg');
+  background: url('Images/background.jpg');
   background-size: cover;
   opacity: 0.7;
   top: 0;
@@ -69,7 +69,7 @@ a {
 
 .background_2::after {
   content: "";
-  background: url('background2.jpg');
+  background: url('Images/background2.jpg');
   background-size: cover;
   opacity: 0.7;
   top: 0;
@@ -204,7 +204,7 @@ h6 {
 /*Portfolio modals*/
 
 #shakespeareGame {
-  background: url("shakespearegame.png");
+  background: url("Images/shakespearegame.png");
   background-size: cover;
   width: 20em;
   height: 8em;
@@ -222,7 +222,7 @@ h6 {
 }
 
 #topDeck {
-  background: url("topDeck.png");
+  background: url("Images/topDeck.png");
   background-size: cover;
   width: 20em;
   height: 8em;
@@ -240,7 +240,7 @@ h6 {
 }
 
 #epic {
-  background: url("Epic.png");
+  background: url("Images/Epic.png");
   background-size: cover;
   width: 20em;
   height: 8em;
@@ -437,4 +437,13 @@ h3 {
 
 .programmingSkills {
   text-align: center;
+}
+
+.technologies {
+  margin-top: 5%;
+}
+
+.descripContain {
+  margin-left: 5%;
+  margin-top: 2%;
 }
