@@ -74,5 +74,16 @@ $(".close").on("click", function() {
   modal3.css("display", "none")
 })
 
+var modal4 = $("#myModal4")
+var weather = $("#weather")
+
+weather.on("click", function() {
+  modal4.css("display", "block")
+})
+
+$(".close").on("click", function() {
+  modal4.css("display", "none")
+})
+
 
 });
