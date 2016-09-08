@@ -447,3 +447,7 @@ h3 {
   margin-left: 5%;
   margin-top: 2%;
 }
+
+.workingOn p {
+  font-size: 1.5em;
+}
