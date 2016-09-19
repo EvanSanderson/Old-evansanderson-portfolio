@@ -85,5 +85,15 @@ $(".close").on("click", function() {
   modal4.css("display", "none")
 })
 
+var modal5 = $("#myModal5")
+var veteran = $("#veteran")
+
+veteran.on("click", function() {
+  modal5.css("display", "block")
+})
+
+$(".close").on("click", function(){
+  modal5.css("display", "none")
+})
 
 });
