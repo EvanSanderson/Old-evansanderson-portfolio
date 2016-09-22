@@ -307,6 +307,24 @@ h6 {
     transform: scale(1);
 }
 
+#blog {
+  background: url("Images/veteran.png");
+  background-size: cover;
+  width: 20em;
+  height: 8em;
+  display: block;
+  margin: 0 auto;
+  border-radius: 14px;
+  -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);
+}
+
 .modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
@@ -402,6 +420,18 @@ h6 {
 }
 
 #veteran:hover {
+  box-shadow: 0px 0px 50px #000000;
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.5);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.5);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.5);
+    transition: all 200ms ease-in;
+    transform: scale(1.5);
+}
+#blog:hover {
   box-shadow: 0px 0px 50px #000000;
     z-index: 2;
     -webkit-transition: all 200ms ease-in;
