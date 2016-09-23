@@ -258,29 +258,39 @@ h6 {
 #shakespeareGame:hover {
   cursor: pointer;
   cursor: hand;
+  background: url('Images/shakespeareGif.gif');
+  background-size: cover;
 
 }
 
 #topDeck:hover {
   cursor: pointer;
-  cursor: hand; ;
+  cursor: hand;
+  background: url('Images/TopdeckGif.gif');
+  background-size: cover;
 
 }
 
 #epic:hover {
   cursor: pointer;
   cursor: hand;
+  background: url('Images/epicGIF.gif');
+  background-size: cover;
 }
 
 #weather:hover{
   cursor: pointer;
   cursor: hand;
+  background: url('Images/weatherGIF.gif');
+  background-size: cover;
 
 }
 
 #veteran:hover {
   cursor: pointer;
   cursor: hand;
+  background: url('Images/veteranGIF.gif');
+  background-size: cover;
 
 }
 
