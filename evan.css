@@ -255,6 +255,39 @@ h6 {
 
 }
 
+#shakespeareGame:hover {
+  cursor: pointer;
+  cursor: hand;
+
+}
+
+#topDeck:hover {
+  cursor: pointer;
+  cursor: hand; ;
+
+}
+
+#epic:hover {
+  cursor: pointer;
+  cursor: hand;
+}
+
+#weather:hover{
+  cursor: pointer;
+  cursor: hand;
+
+}
+
+#veteran:hover {
+  cursor: pointer;
+  cursor: hand;
+
+}
+
+#blog:hover {
+  cursor: pointer;
+  cursor: hand;
+}
 
 
 .modal {
