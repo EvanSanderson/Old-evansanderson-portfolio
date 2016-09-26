@@ -248,8 +248,9 @@ h6 {
 
 #shakespeareGame, #topDeck, #epic, #weather, #veteran, #blog {
   background-size: cover;
-  height: 15em;
-  display: block;
+  height: 12em;
+  width: 25em;
+  display: inline-block;
   margin: 0 auto;
   border-radius: 5px;
 
