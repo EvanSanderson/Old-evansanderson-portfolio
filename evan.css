@@ -15,6 +15,10 @@ a {
   color: #354F52;
 }
 
+.nav>li {
+  margin-right: 30px;
+}
+
 .navbar-default {
   background: rgba(192, 192, 192, 0.7 );
 overflow-x: hidden;
