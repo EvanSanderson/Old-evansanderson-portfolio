@@ -1,0 +1,1 @@
+"use strict";$(document).ready(function(){var e=new ScrollMagic({globalSceneOptions:{triggerHook:"onLeave"}}),n=TweenMax.to("#section-2",.5,{backgroundColor:"green"});new ScrollScene({triggerElement:"#section-2"}).setTween(n).addTo(e)});
