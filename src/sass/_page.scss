@@ -1,3 +1,34 @@
-.section {
-  height: 600px;  
+#pinContainer {
+width: 100%;
+height: 100%;
+overflow:hidden;
+}
+
+.panel {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  h1 {
+    color: white;
+  }
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+}
+
+.turqoise {
+  background-color: turquoise;
+}
+
+.bordeaux {
+  background-color: burlywood;
+}
+
+.orange {
+  background-color: orange;
 }
