@@ -16,7 +16,9 @@ overflow:hidden;
 .blue {
   background-color: $primarycolor;
 }
-
+.grey {
+  background-color: $grey;
+}
 .green {
   background-color: $tertiarycolor;
   justify-content: space-between;
@@ -30,9 +32,6 @@ overflow:hidden;
   background-color: $lilac;
 }
 
-.grey {
-  background-color: $grey;
-}
 
 .header {
   position: absolute;
@@ -71,4 +70,14 @@ overflow:hidden;
   from, to { border-color: transparent}
   50% { border-color: #fff;}
 }
+}
+
+#catowner {
+  height: 900px;
+  width: 100%;
+    #thurio {
+    width: 200px;
+    transform: translateX(-100%);
+    // position: absolute;
+  }
 }

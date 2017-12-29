@@ -8,6 +8,7 @@
 <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
   crossorigin="anonymous"></script>
 <script type="text/javascript" src="scrollmagic/TweenMax.js"></script>
+<script type="text/javascript" src="scrollmagic/BezierPlugin.js"></script>
 <script type="text/javascript" src="scrollmagic/uncompressed/ScrollMagic.js"></script>
 <script type="text/javascript" src="scrollmagic/uncompressed/plugins/animation.gsap.js"></script>
 <script type="text/javascript" src="dist/js/script.js"></script>
@@ -67,9 +68,13 @@
         <p id="tobe"> To be or not to be! </p>
       </div>
     </div>
-    <div class="panel grey flex-container center-center">
-      <h1>Also, a cat owner.</h1> 
-    </div>
+  </section>
+  <section id="catowner" class="flex-container grey column">
+    <div id="trigger"></div>
+      <div id="target">
+        <img id="thurio" src="dist/assets/thurio_flipped.png"/>
+      </div>
+      <h1>Also a cat owner.</h1> 
   </section>
 </body>
 </html>
