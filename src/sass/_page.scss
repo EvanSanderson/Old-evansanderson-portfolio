@@ -81,3 +81,36 @@ overflow:hidden;
     // position: absolute;
   }
 }
+
+#whatido{
+  height: 600px;
+  width: 100%;
+  background: $grey;
+  .skills-container {
+    height: 60%;
+    width: 100%;
+    .skill {
+      display: inline-block;
+      background: $primarycolor;
+      position: relative;
+      p{
+        padding-top: 3rem;
+      }
+    }
+    .one {
+      height: 100%;
+    }
+    .two {
+      height: 80%;
+    }
+    .three {
+      height: 60%;
+    }
+    .four {
+      height: 40%;
+    }
+    .five {
+      height: 20%;
+    }
+  }
+}

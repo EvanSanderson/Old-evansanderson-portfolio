@@ -75,6 +75,12 @@ $(document).ready(function () {
         var thurioScene = new ScrollMagic.Scene({triggerElement: "#trigger", duration: 500, offset: 100})
                             .setPin("#target")
                             .setTween(thurioTween)
+                            .addTo(controller);3
+
+        var skillTween = TweenMax.staggerFromTo(".skill", 2, {right: -800, opacity: 0}, {right: 0, opacity: 1, ease: Back.easeOut}, 0.15);
+
+        var skillScene = new ScrollMagic.Scene({triggerElement: "#whatido", duration: 300})
+                            .setTween(skillTween)
                             .addTo(controller);
 });
 
