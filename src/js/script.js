@@ -39,7 +39,7 @@ $(document).ready(function () {
                 curviness: 1.25,
                 autoRotate: true,
                 values: [
-                    {x: 100, y:-20 },
+                    {x: 100, y:-50 },
                     {x: 300, y: 10}
                 ]
             },
@@ -72,16 +72,26 @@ $(document).ready(function () {
                             .add(TweenMax.to($("#thurio"), 2, { css: { bezier: thurioWalk.looping }, ease: Power1.easeInOut }))
                             .add(TweenMax.to($("#thurio"), 1, { css: { bezier: thurioWalk.leave }, ease: Power1.easeInOut }));
 
-        var thurioScene = new ScrollMagic.Scene({triggerElement: "#trigger", duration: 500, offset: 100})
-                            .setPin("#target")
+        var thurioScene = new ScrollMagic.Scene({triggerElement: "#catowner", duration: 400, offset: 50})
+                            .setClassToggle('#next-area', 'primarycolor')
                             .setTween(thurioTween)
-                            .addTo(controller);3
-
-        var skillTween = TweenMax.staggerFromTo(".skill", 2, {right: -800, opacity: 0}, {right: 0, opacity: 1, ease: Back.easeOut}, 0.15);
-
-        var skillScene = new ScrollMagic.Scene({triggerElement: "#whatido", duration: 300})
-                            .setTween(skillTween)
                             .addTo(controller);
+
+        var skillTween = TweenMax.staggerFromTo(".skill", 2, {right: -800, opacity: 0, rotation: 360}, {right: 0, opacity: 1, rotation: 0, ease: Back.easeOut}, 0.15);
+
+        var skillScene = new ScrollMagic.Scene({triggerElement: "#whatido", duration: 500, offset: 50})
+                            .setTween(skillTween)
+                            .setPin("#whatido")
+                            .setClassToggle('#next-area', 'secondarycolor')
+                            .addTo(controller);
+
+    var finalTween = new TimelineMax()
+        .fromTo("#reachout-container", 1, { width: 0 }, { width: 800, ease: Linear.easeNone })
+    var finalScene = new ScrollMagic.Scene({triggerElement: "#reachout", duration: 500})
+        .setTween(finalTween)
+        .setPin("#reachout")
+        .setClassToggle("#next-area", 'finalcolor')
+        .addTo(controller);
 });
 
 
