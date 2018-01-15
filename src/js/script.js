@@ -15,13 +15,11 @@ $(document).ready(function () {
         .setTween(wipeAnimation)
         .addTo(controller);
         
-        var circle = $("circle#circle");
-        var circleTween = new TimelineMax()
-                .add(TweenMax.to(circle, 5, {strokeDashoffset: 0, ease: Linear.easeNone, repeat:-1}))
+        // var svg = $(".lilacsvg");
                 
-        var scene2 = new ScrollMagic.Scene({triggerElement: "#whoami", duration: 200, tweenChanges: true})
-                        .setTween(circleTween)
-                        .addTo(controller);
+        // var scene2 = new ScrollMagic.Scene({triggerElement: "#whoami", duration: 200, tweenChanges: true})
+        //                 .setTween(circleTween)
+        //                 .addTo(controller);
 
         var shakeleft = $("path#shakeleft");
         var shakeright = $("path#shakeright");
@@ -73,7 +71,7 @@ $(document).ready(function () {
                             .add(TweenMax.to($("#thurio"), 1, { css: { bezier: thurioWalk.leave }, ease: Power1.easeInOut }));
 
         var thurioScene = new ScrollMagic.Scene({triggerElement: "#catowner", duration: 400, offset: 50})
-                            .setClassToggle('#next-area', 'primarycolor')
+                            .setClassToggle('#next-area', 'background1')
                             .setTween(thurioTween)
                             .addTo(controller);
 
@@ -82,7 +80,7 @@ $(document).ready(function () {
         var skillScene = new ScrollMagic.Scene({triggerElement: "#whatido", duration: 500, offset: 50})
                             .setTween(skillTween)
                             .setPin("#whatido")
-                            .setClassToggle('#next-area', 'secondarycolor')
+                            .setClassToggle('#next-area', 'background2')
                             .addTo(controller);
 
     var finalTween = new TimelineMax()
@@ -90,7 +88,6 @@ $(document).ready(function () {
     var finalScene = new ScrollMagic.Scene({triggerElement: "#reachout", duration: 500})
         .setTween(finalTween)
         .setPin("#reachout")
-        .setClassToggle("#next-area", 'finalcolor')
         .addTo(controller);
 });
 
