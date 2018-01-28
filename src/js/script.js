@@ -70,22 +70,22 @@ $(document).ready(function () {
                             .add(TweenMax.to($("#thurio"), 2, { css: { bezier: thurioWalk.looping }, ease: Power1.easeInOut }))
                             .add(TweenMax.to($("#thurio"), 1, { css: { bezier: thurioWalk.leave }, ease: Power1.easeInOut }));
 
-        var thurioScene = new ScrollMagic.Scene({triggerElement: "#catowner", duration: 400, offset: 50})
+        var thurioScene = new ScrollMagic.Scene({triggerElement: "#catowner", duration: 600, offset: 50})
                             .setClassToggle('#next-area', 'background1')
                             .setTween(thurioTween)
                             .addTo(controller);
 
-        var skillTween = TweenMax.staggerFromTo(".skill", 2, {right: -800, opacity: 0, rotation: 360}, {right: 0, opacity: 1, rotation: 0, ease: Back.easeOut}, 0.15);
+        // var skillTween = TweenMax.staggerFromTo(".skill", 2, {right: -800, opacity: 0, rotation: 360}, {right: 0, opacity: 1, rotation: 0, ease: Back.easeOut}, 0.15);
 
-        var skillScene = new ScrollMagic.Scene({triggerElement: "#whatido", duration: 500, offset: 50})
-                            .setTween(skillTween)
-                            .setPin("#whatido")
-                            .setClassToggle('#next-area', 'background2')
-                            .addTo(controller);
+        // var skillScene = new ScrollMagic.Scene({triggerElement: "#whatido", duration: 500, offset: 50})
+        //                     .setTween(skillTween)
+        //                     .setPin("#whatido")
+        //                     .setClassToggle('#next-area', 'background2')
+        //                     .addTo(controller);
 
     var finalTween = new TimelineMax()
-        .fromTo("#reachout-container", 1, { width: 0 }, { width: 800, ease: Linear.easeNone })
-    var finalScene = new ScrollMagic.Scene({triggerElement: "#reachout", duration: 500})
+        .fromTo("#reachout-header", 2, { opacity:.1  }, { opacity: 1 })
+    var finalScene = new ScrollMagic.Scene({triggerElement: "#reachout", duration: 600})
         .setTween(finalTween)
         .setPin("#reachout")
         .addTo(controller);

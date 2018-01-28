@@ -114,9 +114,10 @@ label{
 }
 
 p{
-	color: #000;
+	color: #fff;
     @include primaryfont();
-    font-size: 1.2rem;
+	font-size: 1.2rem;
+	padding: .5rem 0rem;
     font-weight: 400;
 }
 

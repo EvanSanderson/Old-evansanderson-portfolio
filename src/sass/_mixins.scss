@@ -1,9 +1,9 @@
 $primaryfont: 'Arvo', serif; 
-$primarycolor: #6665DD;
-$secondarycolor: #3E517A;
-$tertiarycolor: #70CAD1;
-$lilac: #B08EA2;
-$grey: #A7BED3;
+$primarycolor: #687c86;
+$secondarycolor: #71867E;
+$tertiarycolor: #5B6057;
+$lilac: #496147;
+$grey: #DEBD70;;
 
 @mixin breakpoint($point) {
 	@if $point == verylarge {
