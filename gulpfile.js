@@ -29,7 +29,7 @@ gulp.task('browser-sync', function () {
 
 });
 
-    gulp.task('sass', function(){ 
+    gulp.task('sass', function(){
         gulp.src('./src/sass/*.scss')
         .pipe(sourcemaps.init())
             .pipe(sass({
@@ -71,6 +71,6 @@ gulp.task('browser-sync', function () {
 gulp.task('build', function () {
     return gulp.start(
         'minify',
-        'images'
+        'scripts'
     );
 });
