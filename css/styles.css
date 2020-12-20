@@ -1,3 +1,33 @@
+/* Blog */
+
+.blog {
+    min-height: 100vh;
+    height: 100%;
+    color: #fff;
+
+}
+
+.blog > div > ul {
+    margin-left: 3rem;
+    margin-top: 1.5rem;
+    list-style-type: disc;
+}
+
+.blog > div > ul > li > a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.blog-post > p {
+    letter-spacing: 0.5px;
+}
+
+/* Main Page */
+
+.hundred-percent-height {
+    height: 100%;
+}
+
 .flex-container {
   display: -webkit-box;
   display: -webkit-flex;
@@ -209,6 +239,10 @@
     height: 50px;
     margin: 1rem 0rem;
     fill: #ffff; }
+
+.header__blog.header {
+    position: relative;
+}
 
 .header {
   position: absolute;
@@ -469,9 +503,6 @@ body {
     -webkit-box-sizing: border-box;
     box-sizing: border-box; }
 
-html {
-  height: 100%; }
-
 h1, h2, h3, h4, h5 {
   font-family: "Arvo", serif;
   font-style: normal;
@@ -483,6 +514,7 @@ h1 {
   font-size: 2.4rem;
   line-height: 2rem;
   font-weight: 300;
+  margin: .65rem 0;
   font-family: "Arvo", serif;
   font-style: normal;
   color: #fff; }
