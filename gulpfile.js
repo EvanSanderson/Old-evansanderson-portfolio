@@ -29,32 +29,12 @@ gulp.task('browser-sync', function () {
 
 });
 
-    gulp.task('sass', function(){
-        gulp.src('./src/sass/*.scss')
-        .pipe(sourcemaps.init())
-            .pipe(sass({
-                errLogToConsole: true
-            }))
-            .pipe(autoprefixer({
-                browsers: ['last 2 versions', '> 1%', 'Firefox ESR', 'iOS 7']
-            }))
-            .pipe(sourcemaps.write())
-            .pipe(gulp.dest('./css'))
-            .pipe(browserSync.stream());
-
-            return gulp.src('css/*.css')
-                .pipe(minifyCSS())
-                .pipe(concat('style.min.css'))
-                .pipe(gulp.dest('dist/css'))
-                .pipe(browserSync.stream());
-    });
-
-    gulp.task('minify', ['sass'], function(){
-        return gulp.src('./css/*.css')
-            .pipe(cleanCSS({
-                compatibility: '*'
-            }))
+    gulp.task('minify', function(){
+        return gulp.src('css/*.css')
+            .pipe(minifyCSS())
+            .pipe(concat('style.min.css'))
             .pipe(gulp.dest('dist/css'))
+            .pipe(browserSync.stream());
     })
 
     gulp.task('scripts', ['minify'], function(){
