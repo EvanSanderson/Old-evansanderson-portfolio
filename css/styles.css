@@ -7,19 +7,47 @@
 
 }
 
-.blog > div > ul {
-    margin-left: 3rem;
-    margin-top: 1.5rem;
+.blog-post > p {
+    letter-spacing: 0.5px;
+}
+
+.blog-image, .blog-posts {
+    margin: 1rem 0;
+}
+
+.blog-posts {
+    margin-top: 1rem;
+}
+
+.blog-posts > ul {
+    margin-left: 2.5rem;
     list-style-type: disc;
 }
 
-.blog > div > ul > li > a {
-    color: #fff;
-    text-decoration: underline;
+.blog-posts > ul > li > .blog-link {
+    color:#DDDDDD;
 }
 
-.blog-post > p {
-    letter-spacing: 0.5px;
+.blog-posts > img {
+    border-radius: 5px;
+    border: 1px solid #fff;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+h2.blog-subtitle {
+    color: #fff;
+    text-transform: capitalize;
+    font-style: italic;
+}
+
+.blog-byline {
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    width: 100%;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #fff;
 }
 
 /* Main Page */
